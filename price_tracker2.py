@@ -6,7 +6,7 @@ import smtplib
 from email.message import EmailMessage
 
 email_id = 'rgoel7394@gmail.com'
-email_pass = 'Kartik@123'
+email_pass = 'Shreeya@123'
 # set the headers and user string
 headers = {
 "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0"
