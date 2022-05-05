@@ -38,15 +38,12 @@ def check_price():
   #using strip to remove extra spaces in the title
   # print(title.strip())
 
-
-
-
 # function that sends an email if the prices fell down
 def send_mail():
   msg = EmailMessage()
   msg['Subject']  = "price has dropped !!"
   msg['From'] = email_id
-  msg['To'] = "kartikmehta1365@gmail.com"
+  msg['To'] = "singhshreeya29@gmail.com"
   msg.set_content("Hey check this amazon link : https://www.amazon.in/Bose-Comfort-Wireless-Headphone-Silver/dp/B0756GB78C")
 
   with smtplib.SMTP_SSL('smtp.gmail.com',465) as smtp:
